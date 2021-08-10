@@ -26,6 +26,7 @@ function body() {
         <a href="#work">Work</a>
         <a href="#contact">My Information</a>
         <a href="https://docs.google.com/document/d/18bmCn62dECg3RYC-M512HcBLmzK6QmybMtVMq01YRqs/edit?usp=sharing">Resume</a>
+        <a href="#contactinfo">Contact</a>
       </div>
 
       <div className="row">
@@ -100,11 +101,12 @@ function body() {
             <div className="homework-1">
               <p>Coming Soon...</p>
               <a href="">
-                <img src={inprogress} className="homework-2" /></a>
+                <img src={inprogress} className="homework-1" /></a>
             </div>
           </div>
         </div>
       </div>
+
 
       <div id="contact" className="footer">
         <h2>My Information </h2>
