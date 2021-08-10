@@ -1,5 +1,16 @@
 import React from 'react';
 import "./style.css"
+import picOfme from "../img/Picture-of-me.jpg"
+import horiseon from "../img/Horiseon-picture.png"
+import proj1 from "../img/project1-screenshot.png"
+import weatherdash from "../img/weatherdashboardscreenshot.png"
+import workday from "../img/workdayschedulescreenshot.png"
+import proj2 from "../img/project2screenshot.png"
+import notetaker from "../img/notetakerscreenshot.png"
+import ecom from "../img/ecomscreenshot.png"
+import readmegen from "../img/readmegenscreenshot.png"
+import inprogress from "../img/workinprogress.png"
+
 
 function body() {
   return (
@@ -13,14 +24,14 @@ function body() {
         <a href="#active" className="active">Home</a>
         <a href="#experience">Experience</a>
         <a href="#work">Work</a>
-        <a href="#contact">Contact Me</a>
-        <a href="./Resume.pdf">Resume</a>
+        <a href="#contact">My Information</a>
+        <a href="https://docs.google.com/document/d/18bmCn62dECg3RYC-M512HcBLmzK6QmybMtVMq01YRqs/edit?usp=sharing">Resume</a>
       </div>
 
       <div className="row">
         <div id="active" className="main">
           <h2>About Me</h2>
-          <img src="/img/Picture-of-me.jpg" className="picture" alt="me" />
+          <img src={picOfme} className="picture" alt="me" />
           <p> I am a quick learner and am looking to grow. I live in
           New Hartford Connecticut. I recently graduated at Northwestern Connecticut Community College
           with my associated degree in Computer Systems Technology. I am increasing my education and im currently
@@ -46,57 +57,57 @@ function body() {
             <div className="homework-1">
               <p>Horiseon</p>
               <a href="https://michelaqyteza.github.io/Homework-1/">
-                <img src="Assets/img/Horiseon-picture.png" className="homework-1" /></a>
+                <img src={horiseon} className="homework-1" /></a>
             </div>
 
             <div className="homework-1">
               <p>Project 1</p>
               <a href="https://michelaqyteza.github.io/Project-1/">
-                <img src="Assets/img/project1-screenshot.png" className="homework-1" /></a>
+                <img src={proj1} className="homework-1" /></a>
             </div>
 
             <div className="homework-1">
               <p>Weather Dashboard</p>
               <a href="https://michelaqyteza.github.io/Homework-6/">
-                <img src="Assets/img/weatherdashboardscreenshot.png" className="homework-1" /></a>
+                <img src={weatherdash} className="homework-1" /></a>
             </div>
 
             <div className="homework-1">
               <p>Work Day Scheduler</p>
               <a href="https://michelaqyteza.github.io/Homework-5/">
-                <img src="Assets/img/workdayschedulescreenshot.png" className="homework-1" /></a>
+                <img src={workday} className="homework-1" /></a>
             </div>
             <div className="homework-1">
               <p>Project-2</p>
               <a href="https://github.com/michelaqyteza/My-Total-Health">
-                <img src="Assets/img/project2screenshot.png" className="homework-1" /></a>
+                <img src={proj2} className="homework-1" /></a>
             </div>
             <div className="homework-1">
               <p>Note Taker</p>
               <a href="https://github.com/michelaqyteza/NoteTaker">
-                <img src="Assets/img/notetakerscreenshot.png" className="homework-1" /></a>
+                <img src={notetaker} className="homework-1" /></a>
             </div>
             <div className="homework-1">
               <p>E-Commerce</p>
               <a href="https://github.com/michelaqyteza/E-commerce">
-                <img src="Assets/img/ecomscreenshot.png" className="homework-1" /></a>
+                <img src={ecom} className="homework-1" /></a>
             </div>
             <div className="homework-1">
               <p>Read-Me Generator</p>
               <a href="https://github.com/michelaqyteza/ReadMe-Generator">
-                <img src="Assets/img/readmegenscreenshot.png" className="homework-1" /></a>
+                <img src={readmegen} className="homework-1" /></a>
             </div>
             <div className="homework-1">
               <p>Coming Soon...</p>
               <a href="">
-                <img src="Assets/img/workinprogress.png" className="homework-2" /></a>
+                <img src={inprogress} className="homework-2" /></a>
             </div>
           </div>
         </div>
       </div>
 
       <div id="contact" className="footer">
-        <h2>Contact Me </h2>
+        <h2>My Information </h2>
         <p> <b>Email:</b> Michelaq1997@gmail.com</p>
         <p> <b>Phone Number: </b>(860) 782-1279</p>
         <p> <b>GitHub Link:</b>
