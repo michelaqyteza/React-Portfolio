@@ -1,5 +1,6 @@
 import React from 'react';
 import "./style.css"
+
 import picOfme from "../img/Picture-of-me.jpg"
 import horiseon from "../img/Horiseon-picture.png"
 import proj1 from "../img/project1-screenshot.png"
@@ -106,7 +107,22 @@ function body() {
           </div>
         </div>
       </div>
-
+      <div id="contactinfo" class="main">
+        <h2>Contact</h2>
+        <label for="nameId" class="form-label">Name</label>
+        <input type="text" class="form-control" id="nameId" placeholder="Enter your name" />
+      </div>
+      <div class="main">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+      </div>
+      <div class="main">
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="main">
+        <button>Submit</button>
+      </div>
 
       <div id="contact" className="footer">
         <h2>My Information </h2>
